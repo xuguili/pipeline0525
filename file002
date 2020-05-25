@@ -1,11 +1,11 @@
 node('CentOs7'){
-	stage('¹¹½¨'){
+	stage('æž„å»º'){
 		echo 'bulid'
 	}
-	stage('²âÊÔ'){
+	stage('æµ‹è¯•'){
 		sh 'ifconfig'
 	}
-	stage('²¿Êð'){
+	stage('éƒ¨ç½²'){
 		sh 'cd /usr/local'
 	}
 }
